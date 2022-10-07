@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>foods</title>
+        <style type="text/css">
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                background-image: url("img2.jpg");
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .main{
+                width: 1100px;
+                height: 100%;
+                margin-left: 80px;
+                margin-right: 20px;
+                background-color: rgb(12, 1, 1);
+                color: white;
+
+            }
+            .logo{
+                width: 100px;
+                height: 100px;
+                margin-left: 500px;
+                margin-top: 20px;
+               
+            }
+            h3{
+                /*margin-left: 500px;*/
+                text-transform: uppercase;
+                text-align: center;
+                word-spacing: 15px;
+            }
+            .navbar{
+                list-style: none;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+                
+            }
+            .list ul li{
+                list-style: none;
+                float: left;
+                margin: 0 50px;
+                margin-top: 40px;
+                position: relative;
+            }
+            .list ul li a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            .list ul li::after{
+                content: '';
+                height: 3px;
+                width: 0;
+                background: #fbff1e;
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                transition: 0.5s;
+            }
+            .list ul li:hover::after{
+                width: 100%;
+
+            }
+            .grid{
+                width: 200px;
+                height: 200px;
+                margin-top: 50px;
+                margin-left: 55px;
+                border-radius: 10px;
+                margin-bottom: 50px;
+            }
+            .container{
+                max-width: 1100px;
+                height: 200px;
+                background-color: #24262B;
+                margin-top: -60px;
+                
+            }
+            ul{
+                list-style: none;
+                margin-left: -40px;
+                line-height: 25px;
+            }
+            .footer{
+                background-color: #24262b;
+                padding: 70px 0;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .footer-col{
+                width: 22%;
+                padding: 0 15px;
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color: #fff;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+            }
+            .footer-col h4::before{
+                content:'';
+                position:absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #e91263;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+            .footer-col ul li: :not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #fff;
+                padding-left: 10px;
+            }
+            .bottom{
+                width: 1100px;
+                height: 30px;
+                background-color: #000;
+                color: #fff;
+                
+               
+                padding: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="main">
+            <img class="logo" src="img1.jpeg" alt="">
+            <h3>healthy foods</h3>
+            <section class="list">
+                <ul class="navbar">
+                    <li><a href="ourstory.html">our story</a></li>
+                    <li><a href="#">break-fast</a></li>
+                    <li><a href="#">lunch</a></li>
+                    <li><a href="#">dinner</a></li>
+                    <li><a href="#">drink</a></li>
+                    <li><a href="#">sweets</a></li>
+                </ul>
+            </section> 
+            <section>
+                <img class="grid" src="f1.jpg" alt="">
+                <img class="grid" src="35.jpg" alt="">
+                <img class="grid" src="f3.jpg" alt="">
+                <img class="grid" src="36.jpg" alt="">
+                <img class="grid" src="24.jpg" alt="">
+                <img class="grid" src="31.jpg" alt="">
+                <img class="grid" src="32.jpg" alt="">
+                <img class="grid" src="25.jpg" alt="">
+                <img class="grid" src="28.jpg" alt="">
+                <img class="grid" src="f2.jpg" alt="">
+                <img class="grid" src="27.jpg" alt="">
+                <img class="grid" src="f4.jpg" alt="">
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact </a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Twitter</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>services</h4>
+                            <ul>
+                                <li><a href="#">Order online</a></li>
+                                <li><a href="#">Home Deliver</a></li>
+                                <li><a href="#">Offers</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>social meadia</h4>
+                            <ul>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <section class="bottom">
+                <h3>&copy;</h3>
+            </section>   
+        </div> 
+    </body>
+</html>
